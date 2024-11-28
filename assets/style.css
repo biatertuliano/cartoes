@@ -1,12 +1,16 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #efdcdb;
+    --card-front-color: #ff0000;
+    --card-back-color: #eec5c5;
 }
-
+/* 
+#DBE4EF
+#144480
+#00F4BF
+*/
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: url('img/red-black-background-1080-x-2400-e4kuoxeydesn7hy6.jpg');
     font-family: Bai Jamjuree;
 }
 
@@ -79,8 +83,9 @@ body {
 
 .cartao__conteudo__resposta{
     transform: rotateY(180deg);
-    background-color: rgba(0, 244, 191, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border: 4px solid var(--card-back-color)
+    /* (0, 244, 191, 0.5) */
 }
 
 footer {
